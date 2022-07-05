@@ -1,0 +1,102 @@
+body{
+    background-color: blanchedalmond;
+    color: dimgray;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.7em ;
+    margin-bottom: 500px;
+}
+.class-1{
+    background-color: black;
+    color: azure;
+    border-top: 10px blue solid;
+    border-bottom: 10px blue solid;
+    border-left: 10px blue solid;
+    border-right: 10px blue solid;
+    /*same as above*/
+    border:10px blue solid;
+    padding: 30px;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+/*  *{
+    margin:0;
+    padding: 0;
+}*/
+.class-1 h1{
+    font-family: tahoma;
+    font-size: 30;
+    font-weight: 500;
+}
+.class-2{
+    border: 5px dotted #aeae ;
+}
+
+.catagory{
+    border:10px red solid;
+    border-radius: 10px;
+}
+.catagory h2{
+    text-align: center;
+    text-transform: uppercase;
+    color:pink;
+}/*
+.catagory ul{
+    padding-top: 0px;
+}*/
+.catagory li{
+    list-style: none;
+    padding-bottom: 3px;
+    border-bottom:dotted 2px green ;
+    list-style-image:url("../img/check.png") ;
+    
+}
+a{
+    text-decoration: none;
+    color: blue;
+    
+}
+a:hover{
+    color :black;
+}
+.form-1{
+    margin-top: 10px;
+    border: 2px black solid;
+    
+    padding: 10px;
+
+}
+.form-1 .form-group{
+            padding-bottom: 5px;
+}
+.form-1 label{
+    display: block;
+}
+.form-1 input[type="text"]{
+    padding: 5px;
+    width: 100%;
+}
+.button-1{
+    padding: 20px;
+    color: aliceblue;
+    
+}
+input[type="submit"]:hover{
+    background: yellow;
+    color: green;
+    border: 2px solid  ;
+}
+.box-1{
+    float: left;
+    width:25%;
+    border: 1px solid black;
+    padding-top: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+  
+
+
